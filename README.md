@@ -33,7 +33,7 @@ cd semantic-segmentation-depth-estimation
 pip install -r requirements.txt
 
 ---
-##Run the script
+## ▶️ Run the Script
 python image_segmentation_with_depth_estimation.py
 
 ## 🖼️ Sample Image
