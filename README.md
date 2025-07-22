@@ -31,9 +31,39 @@ semantic-segmentation-depth-estimation/
 ├── LICENSE                                      # License file (e.g., MIT)
 └── .gitignore                                   # Git ignore rules
 
-## 📦 Dependencies
+## 🔧 Installation
 
-Install all required packages:
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/semantic-segmentation-depth-estimation.git
+cd semantic-segmentation-depth-estimation
+
+## Install dependencies
 pip install -r requirements.txt
+
+##Run the script
+python image_segmentation_with_depth_estimation.py
+
+##Sample Image
+Ensure the vehicles.jpg file is present in the project root folder. You can also replace it with any other image of your choice.
+## 💡 How It Works
+-Loads the image using PIL
+-Uses a pre-trained DPT model to predict depth
+-Converts the depth output into a color-mapped image
+-Visualizes and optionally saves the result
+##🧪 Requirements
+Python 3.7+
+PyTorch
+Transformers (Hugging Face)
+OpenCV
+Pillow
+Pandas
+Matplotlib
+
+##📌 Output
+- Saves the predicted depth map as depth_map_output.jpg.
+- Displays input and output images side-by-side using matplotlib.
+
+##📚 License
+This project is licensed under the [MIT License](LICENSE).
