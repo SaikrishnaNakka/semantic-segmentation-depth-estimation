@@ -21,16 +21,6 @@ In this project, **depth estimation** is used as a pre-step to help understand t
 - Performs depth estimation and segmentation
 - Suitable for research and demo purposes
 
-## 📁 Project Structure
-semantic-segmentation-depth-estimation/
-│
-├── image_segmentation_with_depth_estimation.py  # Main script
-├── vehicles.jpg                                 # Sample image for testing
-├── requirements.txt                             # List of Python dependencies
-├── README.md                                    # Project documentation
-├── LICENSE                                      # License file (e.g., MIT)
-└── .gitignore                                   # Git ignore rules
-
 ## 🔧 Installation
 
 1. Clone the repository:
@@ -42,6 +32,7 @@ cd semantic-segmentation-depth-estimation
 ## Install dependencies
 pip install -r requirements.txt
 
+---
 ##Run the script
 python image_segmentation_with_depth_estimation.py
 
